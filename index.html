@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" ></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="../js/slide.js"></script>
+    <script src="../js/animation.js"></script>
+    <script src="../js/scroll.js"></script>
+    <title>NIKE</title>
+</head>
+  <body>
+      <div class="page_content">
+        <!-- <div class="page_background">
+          <img src="../images/img_page_background.png" alt="page_background">
+        </div>
+        <div class="page_background_mb">
+          <img src="../images/img_page_background_mb.png" alt="page_background_mobile">
+        </div> -->
+
+        <section class="main_banner relative_section">
+          <div class="nike_main_banner"><img src="../images/img_main_banner.jpg" alt="main_banner_image"></div>
+          <div class="nike_main_banner_mb"><img src="../images/img_main_banner_mb.jpg" alt="main_banner_mobile_image"></div>
+          <a class="history_back_button" href="javascript:window.history.back();"><img src="../images/icon_arrow_back.svg" alt="history_back_button"></a>
+          <div class="main_banner_text">
+            <h2 class="typing_txt">
+              <p>NIKE</p>
+              <p>With Hongdae</p>
+            </h2>
+            <div class="typing">
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <div class="scroll_down_img" onclick="goToScroll('scroll_top')">
+            <div class="scroll_down_box">
+              <div class="scroll_down_circle"><img src="../images/img_circle_bottom.png" alt="scroll_down_circle"></div>
+              <div class="scroll_down_finger"><img src="../images/icon_bottom_finger.svg" alt="scroll_down_circle"></div>
+            </div>
+          </div>
+        </section>
+        <section class="nike_wrap_box relative_section">
+          <div class="main_banner_line_nike">
+            <img src="../images/img_line_nike.png" alt="nike_line_image">
+          </div>
+          <div class="nike_content_wrap">
+            <div class="nike_content_wrap_title">
+              나이키
+            </div>
+            <div class="nike_content_list_box">
+              <div class="nike_content_list">
+                <img src="../images/icon_client.svg" alt="client_icon">
+                <span>CLIENT</span>
+                <span>NIKE</span>
+              </div>
+              <div class="nike_content_list">
+                <img src="../images/icon_work.svg" alt="work_icon">
+                <span>WORK</span>
+                <span>PUBLISHING<br>FRONT-END</span>
+              </div>
+              <div class="nike_content_list">
+                <img src="../images/icon_device.svg" alt="device_icon">
+                <span>DEVICE</span>
+                <span>KIOSK</span>
+              </div>
+              <div class="nike_content_list">
+                <img src="../images/icon_date.svg" alt="date_icon">
+                <span>DATE</span>
+                <span>2022</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flow_banner relative_section scroll_top">
+          <div class="flow_banner_text">
+            <div class="flow_content_text">
+              <div class="flow_content_list">nike with hongdae custom your self!</div>
+            </div>
+            <div class="flow_content_text">
+              <div class="flow_content_list">nike with hongdae custom your self!</div>
+            </div>
+            <div class="flow_content_text">
+              <div class="flow_content_list">nike with hongdae custom your self!</div>
+            </div>
+            <div class="flow_content_text">
+              <div class="flow_content_list">nike with hongdae custom your self!</div>
+            </div>
+            <div class="flow_content_text">
+              <div class="flow_content_list">nike with hongdae custom your self!</div>
+            </div>
+          </div>
+          <div class="flow_banner_img_left">
+            <div class="flow_banner_left_inner">
+              <img src="../images/img_flowBanner01.png" alt="flow_banner_image"> 
+            </div>
+          </div>
+          <div class="flow_banner_img_right">
+            <div class="flow_banner_right_inner">
+              <img src="../images/img_flowBanner02.png" alt="flow_banner_image"> 
+            </div>
+          </div>
+          <div class="flow_banner_pen">
+            <div class="flow_pen_inner">
+              <img src="../images/img_whitePen.png" alt="white_pen_image">
+            </div>
+          </div>
+
+          <div class="color_system">
+            <div class="color_system_title">
+              <p>COLOR SYSTEM</p>
+            </div>
+            <div class="color_system_content">
+              <div class="color_system_pen">
+                <div class="color_pen_list bounce01"><img src="../images/icon_systemPen01.svg" alt="system_pen_image"></div>
+                <div class="color_pen_list bounce02"><img src="../images/icon_systemPen02.svg" alt="system_pen_image"></div>
+                <div class="color_pen_list bounce03"><img src="../images/icon_systemPen03.svg" alt="system_pen_image"></div>
+              </div>
+              <div class="system_list_box">
+                <div class="bracket_image"><img src="../images/img_bracket_left.png" alt="bracket_image"></div>
+                <div class="system_list">
+                  <div class="system_list_content heartBeat01">
+                    <div><img src="../images/icon_nike01.svg" alt="system_nike_image"></div>
+                    <span>#00f301</span>
+                  </div>
+                  <div class="system_list_content heartBeat02">
+                    <div><img src="../images/icon_nike02.svg" alt="system_nike_image"></div>
+                    <span>#000000</span>
+                  </div>
+                  <div class="system_list_content heartBeat03">
+                    <div><img src="../images/icon_nike03.svg" alt="system_nike_image"></div>
+                    <span>#ff5001</span>
+                  </div>
+                </div>
+                <div class="bracket_image"><img src="../images/img_bracket_right.png" alt="bracket_image"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="customizing relative_section">
+           <div class="customizing_title">
+            <h2>CUSTOMIZING</h2>
+            <p>매장의 태블릿을 사용하여 사용자가 직접 원하는 사진이나 자수, 로고를 넣어
+               티셔츠를 직접 디자인하면 구매까지 가능한 커스터마이징 시스템</p>
+          </div>
+
+          <div class="customizing_img_box">
+            <div class="customizing_img_active">
+              <img src="../images/img_custom_active.png" alt="custom_image">
+            </div>
+            <div class="customizing_img">
+              <img src="../images/img_custom.png" alt="custom_image">
+            </div>
+          </div>
+
+          <div class="arrow_box_custom">
+            <div class="arrow_animation">
+              <img src="../images/img_arrow_custom.png" alt="animation_arrow_image">
+            </div>
+            <div class="arrow_animation">
+              <img src="../images/img_arrow_custom.png" alt="animation_arrow_image">
+            </div>
+            <div class="arrow_animation">
+              <img src="../images/img_arrow_custom.png" alt="animation_arrow_image">
+            </div>
+          </div>
+        </section>
+
+        <section class="system">
+          <div class="system_title">
+            <h2>ONE STOP SYSTEM</h2>
+            <p>태블릿으로 디자인부터 주문, 결제까지 ONE STOP 시스템을<br>
+              구현함으로써 사용자의 시간을 효율성 있게 사용</p>
+          </div>
+
+          <div class="system_img">
+            <img src="../images/img_system.png" alt="system_image">
+          </div>
+          <div class="system_img_mb">
+            <img src="../images/img_system_mb.png" alt="system_image">
+          </div>
+        </section>
+
+        <section class="asset relative_section">
+          <div class="asset_img">
+            <img src="../images/img_assetBanner.png" alt="asset_banner_image">
+          </div>
+          <div class="asset_img_mb">
+            <img src="../images/img_assetBanner_mb.png" alt="asset_banner_image">
+          </div>
+
+          <div class="asset_icon01 asset_icon_list">
+            <img src="../images/icon_asset01.svg" alt="asset_icon">
+          </div>
+          <div class="asset_icon02 asset_icon_list">
+            <img src="../images/icon_asset02.svg" alt="asset_icon">
+          </div>
+          <div class="asset_icon03 asset_icon_list">
+            <img src="../images/icon_asset03.svg" alt="asset_icon">
+          </div>
+          <div class="asset_icon04 asset_icon_list">
+            <img src="../images/icon_asset04.svg" alt="asset_icon">
+          </div>
+          <div class="asset_icon05 asset_icon_list">
+            <img src="../images/icon_asset05.svg" alt="asset_icon">
+          </div>
+
+          <div class="asset_slide_content">
+            <div class="asset_slide_title">
+              ASSET<br>COLLECTION
+            </div>
+            <div class="asset_slide">
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide01.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide02.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide03.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide04.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide05.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide06.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide07.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide08.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide09.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide10.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide11.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide12.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide13.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide14.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide15.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide16.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide17.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide18.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide19.svg" alt="asset_slide_img">
+              </div>
+              <div class="slide_list">
+                <img src="../images/icon_assetSlide20.svg" alt="asset_slide_img">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="work relative_section">
+          <div class="work_background">
+            <img src="../images/img_work_background.png" alt="">
+          </div>
+          <div class="work_background_mb">
+            <img src="../images/img_work_background_mb.png" alt="">
+          </div>
+            <div class="work_title">
+              <h2>WORK</h2>
+              <p>다양한 PEN TOOL, 색상, 자수 및 이미지 커스텀이 가능하도록
+                PUBLISHILNG 부터 FRONT-END 개발까지 클라이언트와 꾸준한
+                소통으로 작업 진행</p>
+            </div>
+
+            <div class="work_banner">
+              <img src="../images/img_workBanner.png" alt="work_banner">
+            </div>
+            <div class="work_banner_mb">
+              <img src="../images/img_workBanner_mb.png" alt="work_banner">
+            </div>
+
+          <div class="nike_line_top">
+            <img src="../images/img_nike_line_top.png" alt="nike_line_image">
+          </div>
+          <div class="nike_line_top_mb">
+            <img src="../images/img_nike_line_top_mb.png" alt="nike_line_image">
+          </div>
+
+          <div class="arrow_box_work">
+            <div class="arrow_animation">
+              <img src="../images/img_arrow_work.png" alt="animation_arrow_image">
+            </div>
+            <div class="arrow_animation">
+              <img src="../images/img_arrow_work.png" alt="animation_arrow_image">
+            </div>
+            <div class="arrow_animation">
+              <img src="../images/img_arrow_work.png" alt="animation_arrow_image">
+            </div>
+          </div>
+          
+          <div class="work_list_content">
+            <div class="work_list_box">
+              <div class="work_list work_left"><img src="../images/img_workList04.png" alt="work_list_image"></div>
+              <div class="work_list work_left"><img src="../images/img_workList03.png" alt="work_list_image"></div>
+              <div class="work_list work_right"><img src="../images/img_workList02.png" alt="work_list_image"></div>
+              <div class="work_list work_right"><img src="../images/img_workList01.png" alt="work_list_image"></div>
+            </div>
+            <div class="work_list_title">
+              <h3>NIKE BY U</h3>
+              <p>원하는 디자인으로 세상세 하나뿐인
+                나만의 굿즈를 만들어보세요.</p>
+            </div>
+          </div>
+
+          <!-- <div class="work_list_content_mb">
+            <div class="work_list_title">
+              <h3>NIKE BY U</h3>
+              <p>원하는 디자인으로 세상세 하나뿐인
+                나만의 굿즈를 만들어보세요.</p>
+            </div>
+            <div class="work_list_wrap">
+              <div class="work_list_box_left">
+                <div class="work_list"><img src="../images/img_workList04.png" alt="work_list_image"></div>
+                <div class="work_list"><img src="../images/img_workList03.png" alt="work_list_image"></div>
+              </div>
+              <div class="work_list_box_right">
+                <div class="work_list"><img src="../images/img_workList02.png" alt="work_list_image"></div>
+                <div class="work_list"><img src="../images/img_workList01.png" alt="work_list_image"></div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="nike_line_bottom">
+            <img src="../images/img_nike_line_bottom.png" alt="nike_line_image">
+          </div>
+
+          <div class="nike_line_bottom_mb">
+            <img src="../images/img_nike_line_bottom.png" alt="nike_line_image">
+          </div>
+        </section>
+
+        <section class="nike_fin relative_section">
+          <div class="work_logo"><img src="../images/icon_workLogo.svg" alt="work_logo"></div>
+          <div class="work_icon">
+            <div class="work_icon_inner">
+              <img src="../images/icon_assetSlide19.svg" alt="work_icon">
+            </div>
+          </div>
+          <div class="source_area">
+            <h2>LIFPYS</h2>
+            <p>www.lifpys.com</p>
+          </div>
+        </section>
+      </div>
+  </body>
+</html>

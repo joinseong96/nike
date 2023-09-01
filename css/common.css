@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+/* @font-face {
+    font-family: "Neue Pixel Grotesk";
+    src: url("/Portfolio/NIKE/fonts/NeuePixelGrotesk_Regular.ttf");
+} */
+@font-face {
+    font-family: "Net-rtt-redstar";
+    src: url("../fonts/AnyConv.com__FontsFree-Net-rtt-redstar_8.woff");
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Pretendard';
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #F3F3F3;
+}
+.page_content {
+  width: 100%; min-height: 100vh;
+  background-image: url('../images/line.svg');
+  background-position: 50% -103px;
+  background-size: 1920px;
+  background-repeat: repeat-y;
+}
+@media screen and (max-width: 769px) {
+  .page_content {
+    background-size: 100%;
+    background-position: 50% calc(100vw*(-40/428));
+  }
+}
+.relative_section{position: relative;}
+[class*="nike_line"]{width: 100%; position: absolute; z-index: 1;}
+[class*="nike_line"] img{object-fit: cover;}
+[class*="arrow_box"]{position: absolute; left: 50%; transform: translateX(-50%);}
+[class*="work_list_box"]{display: flex;}
